@@ -4,22 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Josué Manuel Echandia Asto</title>
 </head>
 
 <body>
-    <figure class="fondo_container"><img src="src/fondo.png" class="fondo"></figure>
+    <figure class="fondo_container"><img src="https://hd.unsplash.com/40/whtXWmDGTTuddi1ncK5v_IMG_0097.jpg" class="fondo"></figure>
     <header class="header" id="header">
         <div class="container-principal relative">
-            <figure><img class="foto" src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/14100509_853362811466630_3994352990477881762_n.jpg?oh=27fd48c3c401369d601de04c5795b9b0&oe=5881C88B" alt="" /></figure>
+            <figure><img class="foto" src="https://scontent-mia1-1.xx.fbcdn.net/v/t1.0-9/14441020_870263949776516_2094469694068484797_n.jpg?oh=153f1cd3f404aa33b74f103ba71e766c&oe=58A9B691" alt="" /></figure>
             <div class="title_principal">
-                <span><div class="line"></div></span>
-                <h1 class="uppercase title_principal_first_line">Josué Echandía</h1>
-                <h2 class="uppercase">Developer Frontend and Android</h2>
-                <span><div class="line"></div></span>
+                <span><div class="line line-principal"></div></span>
+                <h1 class="uppercase-title title_principal_first_line">Josué Echandía</h1>
+                <h2 class="uppercase-title ">Developer Frontend and Android</h2>
+                <span><div class="line line-principal"></div></span>
             </div>
             <div class="absolute container-social">
                 <div class="buttons_social_container">
@@ -33,14 +33,15 @@
             </div>
         </div>
     </header>
-    <nav class="menu" id="menu">
-      <ul>
-        <li><a href="#header">Inicio</a></li>
-        <li><a href="#aboutme">Sobre Mí</a></li>
-        <li><a href="#conocimientos">Mis Conocimientos</a></li>
-        <li><a href="#mywork">Mi Trabajo</a></li>
-      </ul>
-    </nav>
+    <div class="menu" id="menu">
+        <ul>
+            <li><a href="#header">Inicio</a></li>
+            <li><a href="#aboutme">Sobre Mí</a></li>
+            <li><a href="#mycertificate">Mis Certificados</a></li>
+            <li><a href="#conocimientos">Mis Conocimientos</a></li>
+            <li><a href="#mywork">Mi Trabajo</a></li>
+        </ul>
+    </div>
     <section id="aboutme" class="aboutme_container">
         <div class="container">
             <img src="src/person.png" alt="">
@@ -80,6 +81,62 @@
             </div>
         </div>
     </section>
+    <section id="mycertificate" class="mywork_container">
+        <div class="container">
+            <div class="title_container">
+                <span><div class="line left"></div></span>
+                <h3 class="uppercase">Mis Certificados</h3>
+                <span><div class="line right"></div></span>
+            </div>
+            <div class="mywork_item_container">
+                <article class="mywork_item">
+                    <img class="materialboxed mywork_item_img" width="350px" src="src/certificate/frontend.jpg-large">
+                </article>
+                <article class="mywork_item">
+                    <img class="materialboxed mywork_item_img" width="350px" src="src/certificate/google.png">
+                </article>
+                <article class="mywork_item">
+                    <img class="materialboxed mywork_item_img" width="350px" src="src/certificate/javascript.jpg-large">
+                </article>
+                <article class="mywork_item">
+                    <img class="materialboxed mywork_item_img" width="350px" src="src/certificate/web.jpg">
+                </article>
+                <article class="mywork_item">
+                    <img class="materialboxed mywork_item_img" width="350px" src="src/certificate/git.png">
+                </article>
+                <article class="mywork_item">
+                    <img class="materialboxed mywork_item_img" width="350px" src="src/certificate/html5.png">
+                </article>
+                <article class="mywork_item">
+                    <img class="materialboxed mywork_item_img" width="350px" src="src/certificate/java.png">
+                </article>
+                <article class="mywork_item">
+                    <img class="materialboxed mywork_item_img" width="350px" src="src/certificate/polymer.png">
+                </article>
+                <article class="mywork_item">
+                    <img class="materialboxed mywork_item_img" width="350px" src="src/certificate/rd.png">
+                </article>
+                <article class="mywork_item">
+                    <img class="materialboxed mywork_item_img" width="350px" src="src/certificate/web2.png">
+                </article>
+                <article class="mywork_item">
+                    <img class="materialboxed mywork_item_img" width="350px" src="src/certificate/marca.png">
+                </article>
+                <article class="mywork_item">
+                    <img class="materialboxed mywork_item_img" width="350px" src="src/certificate/wordpress.png">
+                </article>
+                <article class="mywork_item">
+                    <img class="materialboxed mywork_item_img" width="350px" src="src/certificate/leanux.png">
+                </article>
+                <article class="mywork_item">
+                    <img class="materialboxed mywork_item_img" width="350px" src="src/certificate/basica.png">
+                </article>
+                <article class="mywork_item">
+                    <img class="materialboxed mywork_item_img" width="350px" src="src/certificate/illustrator.png">
+                </article>
+            </div>
+        </div>
+    </section>
     <section id="mywork" class="mywork_container">
         <div class="container">
             <div class="title_container">
@@ -89,37 +146,31 @@
             </div>
             <div class="mywork_item_container">
                 <article class="mywork_item">
+                    <img class="mywork_item_img" src="src/sfotipy.jpg" alt="" />
+                    <div class="mywork_item_description">
+                        <p>Mi Sfotipy</p>
+                        <span class="mywork_item_description_button"><a target="newblack" href="http://josueechandiaasto.github.io/Sfotipy/">Ir al Sitio</a></span>
+                    </div>
+                </article>
+                <article class="mywork_item">
+                    <img class="mywork_item_img" src="src/invie.png" alt="" />
+                    <div class="mywork_item_description">
+                        <p>Invie</p>
+                        <span class="mywork_item_description_button"><a target="newblack" href="http://josueechandiaasto.github.io/Sfotipy/">Ir al Sitio</a></span>
+                    </div>
+                </article>
+                <article class="mywork_item">
+                    <img class="mywork_item_img" src="src/emusap.png" alt="" />
+                    <div class="mywork_item_description">
+                        <p>EMUSAP SAC.</p>
+                        <span class="mywork_item_description_button"><a target="newblack" href="http://josueechandiaasto.github.io/EMUSAP/">Ir al Sitio</a></span>
+                    </div>
+                </article>
+                <article class="mywork_item">
                     <img class="mywork_item_img" src="src/work.png" alt="" />
                     <div class="mywork_item_description">
                         <p>Mi Portafolio</p>
                         <span class="mywork_item_description_button">Ir al sitio</span>
-                    </div>
-                </article>
-                <article class="mywork_item">
-                    <img class="mywork_item_img" src="src/work.png" alt="" />
-                    <div class="mywork_item_description">
-                        <p>Mi Portafolio</p>
-                        <span class="mywork_item_description_button">
-              Ir al sitio
-            </span>
-                    </div>
-                </article>
-                <article class="mywork_item">
-                    <img class="mywork_item_img" src="src/work.png" alt="" />
-                    <div class="mywork_item_description">
-                        <p>Mi Portafolio</p>
-                        <span class="mywork_item_description_button">
-              Ir al sitio
-            </span>
-                    </div>
-                </article>
-                <article class="mywork_item">
-                    <img class="mywork_item_img" src="src/work.png" alt="" />
-                    <div class="mywork_item_description">
-                        <p>Mi Portafolio</p>
-                        <span class="mywork_item_description_button">
-              Ir al sitio
-            </span>
                     </div>
                 </article>
             </div>
@@ -139,22 +190,28 @@
         <span class="copyright">Josué Echandía | 2016</span>
     </footer>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,700" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
     <script type="text/javascript">
-      var menu = document.getElementById('menu');
-      var button_show = document.getElementById("button-show");
-      var button_close = document.getElementById("button-close");
+        var menu = document.getElementById('menu');
+        var button_show = document.getElementById("button-show");
+        var button_close = document.getElementById("button-close");
 
-      button_show.addEventListener("click",function () {
-        button_show.classList.remove("activate");
-        button_close.classList.add("activate");
-        menu.classList.toggle("activate");
-      })
+        button_show.addEventListener("click", function() {
+            button_show.classList.remove("activate");
+            button_close.classList.add("activate");
+            menu.classList.toggle("activate");
+        })
 
-      button_close.addEventListener("click",function () {
-        button_close.classList.remove("activate");
-        button_show.classList.add("activate");
-        menu.classList.toggle("activate");
-      })
+        button_close.addEventListener("click", function() {
+            button_close.classList.remove("activate");
+            button_show.classList.add("activate");
+            menu.classList.toggle("activate");
+        })
+        $(document).ready(function() {
+            $('.materialboxed').materialbox();
+        });
     </script>
 </body>
+
 </html>
